@@ -140,21 +140,3 @@ class QuizInterface:
 
         # Shows a message box to display the result
         messagebox.showinfo("Result", f"{result}\n{correct}\n{wrong}")
-    
-class setup:
-    def __init__(self):
-        self.window = Tk()
-        self.window.title("TriviaMania")
-        self.window.geometry("850x600")
-
-        # Display Title
-        self.display_title()
-
-
-    def display_title(self):
-        # Title
-        title = Label(self.window, text="TriviaMania", width=50, bg="green", fg="white", font=("ariel", 20, "bold"))
-
-        # place of the title
-        title.place(x=0, y=2)
-
