@@ -5,7 +5,6 @@ const categories = [ "General Knowledge","Books","Film","Music","Musicals & Thea
     const categorySelect = document.getElementById("catagories");
     for (let i = 0; i < categories.length; i++) {
       const option = document.createElement("option");
-      option.value = categories[i];
       option.text = categories[i];
       categorySelect.appendChild(option);
     }
